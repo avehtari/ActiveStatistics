@@ -8,7 +8,7 @@ date: "Page updated: `r format.Date(file.mtime('index.Rmd'),'%Y-%m-%d')`"
 ## Information
 
 <div style= "float:right; margin-left:6px; margin-top:4px; margin-bottom:6px;">
-<img src="active_statistic.jpg" alt="" width=160>
+<img src="active_statistic.jpg" alt="" width=220>
 </div>
 Web page for the book *Active Statistics* by [Andrew Gelman](http://www.stat.columbia.edu/~gelman/) and [Aki Vehtari](https://users.aalto.fi/~ave/).
 
