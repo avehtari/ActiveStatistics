@@ -10,7 +10,7 @@ date: "Page updated: `r format.Date(file.mtime('index.Rmd'),'%Y-%m-%d')`"
 <div style= "float:right; margin-left:6px; margin-top:4px; margin-bottom:6px;">
 <img src="active_statistic.jpg" alt="" width=160>
 </div>
-Home page for the book *Active Statistics* by [Andrew Gelman](http://www.stat.columbia.edu/~gelman/) and [Aki Vehtari](https://users.aalto.fi/~ave/).
+Web page for the book *Active Statistics* by [Andrew Gelman](http://www.stat.columbia.edu/~gelman/) and [Aki Vehtari](https://users.aalto.fi/~ave/).
 
 Published by Cambridge University Press in 2024 (March).<br>
 © Copyright by Andrew Gelman and Aki Vehtari 2024.
