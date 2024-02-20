@@ -1,3 +1,9 @@
+# Stan temporary files
+*.rds
+
+# Emacs
+*~
+
 # History files
 .Rhistory
 .Rapp.history
@@ -39,11 +45,17 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
-
 # translation temp files
 po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# knitr and R markdown default cache directories
+/*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+.Rproj.user

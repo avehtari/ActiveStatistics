@@ -1,0 +1,45 @@
+---
+title: "Active Statistics"
+date: "Page updated: `r format.Date(file.mtime('index.Rmd'),'%Y-%m-%d')`"
+---
+
+-------------
+
+## Information
+
+<div style= "float:right; margin-left:6px; margin-top:4px; margin-bottom:6px;">
+<img src="active_statistic.jpg" alt="" width=160>
+</div>
+Home page for the book *Active Statistics* by [Andrew Gelman](http://www.stat.columbia.edu/~gelman/) and [Aki Vehtari](https://users.aalto.fi/~ave/).
+
+Published by Cambridge University Press in 2024 (March).<br>
+© Copyright by Andrew Gelman and Aki Vehtari 2024.
+
+This book provides statistics instructors and students with complete classroom material for a one- or two-semester course on applied regression and causal inference. It is built around 52 stories, 52 class-participation activities, 52 hands-on computer demonstrations, and 52 discussion problems that allow instructors and students to explore in a fun way the real-world complexity of the subject. The book fosters an engaging 'flipped classroom' environment with a focus on visualization and understanding. The book provides instructors with frameworks for self-study or for structuring the course, along with tips for maintaining student engagement at all levels, and practice exam questions to help guide learning. Designed to accompany the authors' previous textbook [*Regression and Other Stories*](https://avehtari.github.io/ROS-Examples/), its modular nature and wealth of material allow this book to be adapted to different courses and texts or be used by learners as a hands-on workbook.
+
+- [Buy *Active Statistics* from Cambridge University Press](https://www.cambridge.org/core/books/active-statistics/4E066112B3F82CA44C81CB4097960808).
+
+- [*Regression and Other Stories* web page](https://avehtari.github.io/ROS-Examples/).
+
+- If you notice an error [submit an issue](https://github.com/avehtari/ActiveStatistics/issues) or send an email.
+
+## Contents
+
+- How to use this book
+- Part 1: Organizing a plan of study
+    1. Active learning
+    2. Setting up a course of study
+- Part 2: Stories, activities, problems, and demonstrations
+    3. Week by week: the first semester
+    4. Week by week: the second semester
+- Appendices
+     A) Pre-test questions
+     B) Final exam questions
+     C) Outlines of classroom activities
+
+## Reviews
+
+- ‘This book is an extraordinarily rich and generous resource for teaching statistics. Full of stories about challenging statistical problems, the examples reflect all the messiness of real life, and encourage class discussion of what went wrong and how to do things better. The extensive collection of lesson plans and exercises provides a fine inspiration to adopt a different, more active, style of teaching.' - *David Spiegelhalter - University of Cambridge*
+- ‘This is a wonderful read for any statistics teacher. The focus on real-world applications and statistical thinking ensures that everyone will gain new insights and perspectives no matter how long you have been teaching.' - *Beth Chance - California Polytechnic State University*
+- ‘I have to say reading this book came as a pleasant surprise for me. I thought I was going to be reviewing another statistics book and instead, it was an insightful read on how to think about teaching statistics. I found it engaging and helpful in rethinking how I approach teaching statistics.' - *Pamela Davis-Kean - University of Michigan*
+

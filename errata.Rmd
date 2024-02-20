@@ -1,0 +1,16 @@
+---
+title: "Active Statistics - Errata"
+date: "Page updated: `r format.Date(file.mtime('errata.Rmd'),'%Y-%m-%d')`"
+---
+
+-------------
+
+Errata (excluding minor typos) for the book.
+
+If you notice an error that is not mentioned in the errata below, submit an issue at https://github.com/avehtari/ActiveStatistics/issues or send an email.
+
+## 1st printing
+
+Nothing yet!
+
+-------------
