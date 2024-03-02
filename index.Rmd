@@ -25,17 +25,102 @@ This book provides statistics instructors and students with complete classroom m
 
 ## Contents
 
-- How to use this book
 - Part 1: Organizing a plan of study
-    1. Active learning
-    2. Setting up a course of study
+    1. Active learning<br>
+        1.1. Flipped classroom and collaborative learning<br>
+        1.2. What happens during the semester?<br>
+        1.3. Active learning in class<br>
+        1.4. Scheduling<br>
+        1.5. Assessment and feedback<br>
+        1.6. Some general issues in teaching and communication<br>
+    2. Setting up a course of study<br>
+        2.1 What to learn and how to learn it<br>
+        2.2 Computing<br>
+        2.3 Course material<br>
+        2.4 Real data and simulated data<br>
+        2.5 Two kinds of computer demonstrations<br>
+        2.6 Challenges in learning particular topics<br>
+        2.7 Adapting to your goals and learning style<br>
+        2.8 Using these materials in introductory or more advanced courses<br>
+        2.9 Balance between challenges and solutions<br>
 - Part 2: Stories, activities, problems, and demonstrations
-    3. Week by week: the first semester
-    4. Week by week: the second semester
+    3. Week by week: the first semester<br>
+        3.1 Introduction to quantitative social science<br>
+        3.2 Prediction as a unifying theme in statistics and causal inference<br>
+        3.3 Data collection and visualization<br>
+        3.4 Review of mathematics and probability<br>
+        3.5 Statistical inference<br>
+        3.6 Simulation<br>
+        3.7 Background on regression modeling<br>
+        3.8 Linear regression with a single predictor<br>
+        3.9 Least squares and ﬁtting regression models<br>
+        3.10 Prediction and Bayesian inference<br>
+        3.11 Linear regression with multiple predictors<br>
+        3.12 Assumptions, diagnostics, and model evaluation<br>
+        3.13 Regression with linear and log transformations
+    4. Week by week: the second semester<br>
+        4.14 Review of basic statistics and regression modeling<br>
+        4.15 Logistic regression163<br>
+        4.16 Working with logistic regression<br>
+        4.17 Other generalized linear models<br>
+        4.18 Design and sample size decisions<br>
+        4.19 Poststratiﬁcation and missing-data imputation<br>
+        4.20 How can ﬂipping a coin help you estimate causal eﬀects?<br>
+        4.21 Causal inference using regression on the treatment variable<br>
+        4.22 Causal inference as prediction<br>
+        4.23 Imbalance and lack of complete overlap<br>
+        4.24 Additional topics in causal inference<br>
+        4.25 Advanced regression and multilevel models<br>
+        4.26 Review of the course
 - Appendices
-     A) Pre-test questions
-     B) Final exam questions
-     C) Outlines of classroom activities
+    A) Pre-test questions<br>
+        A.1 First semester<br>
+        A.2 Second semester
+    B) Final exam questions<br>
+        B.1 Multiple-choice questions for the ﬁrst semester<br>
+        B.2 Multiple-choice questions for the second semester<br>
+        B.3 Take-home exam
+    C) Outlines of classroom activities<br>
+        C.1 First semester<br>
+        C.2 Second semester
+
+## List of classroom activities
+
+### First semester
+
+| Week | Stories | Activities | Computer demonstrations | Discussion problems |
+|---|---|---|---|---|
+| 1. Introduction | Wikipedia<br> <br>  Literary Digest poll of 1936 | Design a study<br> <br>  Design experiment to distinguish two hypotheses | Collect and analyze simulated data<br> <br>  Predict elections from economy | Find the hidden assumption<br> <br> Find the hidden assumptions |
+| 2. Overview of applied regression (Chapter 1 of *Regression and Other Stories*) | United Nations peacekeeping<br> <br> Girls and sports | Bag of candies and sampling bias<br> <br> Gather and plot data from students | Graph of data and fitted line<br> <br> Tinker with an example | Height and earnings<br> <br> Graph hypothetical data |
+| 3. Data collection and visualization (Chapter 2 of *ROS*) | Political leanings of sports fans<br> <br> Use comparisons to redraw a graph | Measure handedness<br> <br> Scatterplot charades | Download and work with data<br> <br> Make plots clearer | Tell stories with graphs<br> <br> Plots of baby names |
+| 4. Basics of math and probability (Chapter 3 of *ROS*) | Death rate in the pandemic<br> <br> Galton's giants | Amoebas and exponential growth<br> <br> Squares, cubes, and power-law growth | Matrix manipulations<br> <br> Compute weighted averages | College admissions<br> <br> Probability of a rare event |
+| 5. Statistical inference (Chapter 4 of *ROS*) | They got the wrong standard error<br> <br> Claims of implausibly large effects | Design a bogus study<br> <br> Think about effect sizes | Simulate fake data and confidence interval<br> <br> Proportions, means, and differences | Confidence intervals and true values<br> <br> Standard error for feeling thermometers |
+| 6. Simulation (Chapter 5 of *ROS*) | Proportion of identical twins<br> <br> Simulate a process of innovation | Real vs. fake coin flips<br> <br> Simulate a probability process | Break R functions<br> <br> Simulate 100 coin flips | Discrete / continuous distribution<br> <br> Simulate clustering of buses |
+| 7. Background on regression modeling (Chapter 6 of *ROS*) | Slope when predicting elections from the economy<br> <br> Clinton/Trump vote vs. polls, and predictions | Simulate fake data and fit a regression<br> <br> Memory quiz and regression to the mean | Play with a simulated regression<br> <br> Challenges in setting up a simulation | Examples of regression to the mean<br> <br> Uniform partisan swing |
+| 8. Linear regression with a single predictor (Chapter 7 of *ROS*) | $5^2 + 12^2 = 13^2$<br> <br> African countries in the U.N. | Simulate and recover regression lines<br> <br> Socioeconomic status and political views | Regression, transformations, and sample size<br> <br> Take average or regress on a constant term | Predict elections from incumbency<br> <br> How large was the sample size? |
+| 9. Fitting regression models (Chapter 8 of *ROS*) | Ronald Reagan and the evangelical vote<br> <br> Does having a girl make you more conservative/liberal? | Move a point and shift the regression line | Play with the regression estimate<br> <br> Compare `lm` and `stan_glm` | From inference to decision<br> <br> Sample size and statistical significance |
+| 10. Prediction and Bayesian inference (Chapter 9 of *ROS*) | Fairness of random exams<br> <br> Uncertainties in election forecasts | Coverage of prediction intervals<br> <br> Prior for a real-world parameter | Different forms of predictive uncertainty<br> <br> Bayes estimate of childhood intervention | Coverage of prediction intervals<br> <br> Prior for a real-world parameter |
+| 11. Linear regression with multiple predictors (Chapter 10 of *ROS*) | Incumbency advantage in elections<br> <br> Beauty and teaching evaluations | Memory quiz with pre-test and treatment<br> <br> Design a study with regression in mind | Regression with interactions<br> <br> Adding interactions to a model | Regression adjustment<br> <br> Why look at a pre-test? |
+| 12. Assumptions, diagnostics, evaluation (Chapter 11 of *ROS*) | Actual vs. guessed exam scores<br> <br> Model checking for baseball analytics | Sample size and statistical significance<br> <br> Assumptions of regression | Take difference or regress on an indicator<br> <br> Simulate and debug | Assumptions of regression<br> <br> Patterns of residuals |
+| 13. Transformations and regression (Chapter 12 of *ROS*) | Logarithm of world population<br> <br> Price elasticity of demand | Predictive uncertainties<br> <br> Combining predictors to create a score | Centered and standardized predictors<br> <br> Regressions with logged variables | When to use the log scale<br> <br> Straight line fit to non-linear data |
+
+### Second semester
+
+| Week | Stories | Activities | Computer demonstrations | Discussion problems |
+|---|---|---|---|---|
+| 14. Review of statistics and regression (Chapters 1--12 of *ROS*) | Biased samples and coverage of intervals<br> <br> The problem of too much talent? | Self-selected treatment assignment<br> <br> Design a study to explore nonlinearity | Causal inference adjusting for pre-treatment<br> <br> Simulating patterns of bias | Sampling and adjustment<br> <br> Causal inference, adjustment |
+| 15. Logistic regression (Chapter 13 of *ROS*) | Item-response analysis of final exams<br> <br> Survey nonresponse | "Two truths and a lie" game<br> <br> Predict the views of others | Displaying a logistic curve<br> <br> Logistic regression probabilities | Real-world logistic regression<br> <br> Where logistic regression makes no sense |
+| 16. Working with logistic regression (Chapter 14 of *ROS*) | "Keys to the White House"<br> <br> Opiate of the masses | Job training and predictive comparisons<br> <br> Logistic regression with interactions | Predictions from logistic regression<br> <br> Linear or logistic regression | Experimental design<br> <br> Design with pre-test |
+| 17. Other generalized linear models (Chapter 15 of *ROS*)  | Patterns of gun ownership<br> <br> Structure in social networks | How similar are you to your friends?<br> <br> Alternative models for discrete data | Simulating overdispersed data<br> <br> Generalized linear model with offset | Identification in linear models<br> <br> Functional forms for non-linear models |
+| 18. Design and sample size decisions (Chapter 16 of *ROS*) | The multiverse and the feedback loop<br> <br> Lucky golf balls and implausible effect sizes | Design an experiment from scratch<br> <br> Hypothetical study of left-handedness | Design analysis by simulation<br> <br> Design for estimating interactions | Designing a survey<br> <br> Designing future studies |
+| 19. Poststratification and missing-data imputation (Chapter 17 of *ROS*) | Estimating state-level opinion<br> <br> Environmental Sustainability Index | Generalizing from class to population<br> <br> Experimental design and effect sizes | Regression and post-stratification<br> <br> Random imputation | Network sampling<br> <br> Problems with missing data |
+| 20. Causal inference and randomized experiments (Chapter 18 of *ROS*) | Varying treatment effects<br> <br> Ballot-order effects | Potential outcomes for basketball<br> <br> Potential outcomes for ballot order | Data analysis for basketball activity<br> <br> Sample and population averages | Randomization and ethics<br> <br> Assumptions in randomized experiments |
+| 21. Causal inference using regression on treatment (Chapter 19 of *ROS*) | Pest control experiment<br> <br> Social penumbras | Adjustments in causal inference<br> <br> Average treatment effects | Benefits of pre-treatment data<br> <br> Combining pre-treatment predictors | Causal logistic regression<br> <br> Holding all else equal? |
+| 22. Causal inference (Chapters 18--19 of *ROS*) | No effect of heart stents?<br> <br> The freshman fallacy | Components of an observational study<br> <br> Study makers vs. study breakers | Playing with least squares<br> <br> Don't adjust for intermediate outcomes | Individual and average effects<br> <br> Nudge meta-analysis |
+| 23. Observational studies with measured confounders (Chapter 20 of *ROS*) | Retrospective evaluation of a policy<br> <br> Postal service modeling | Imbalance and lack of overlap<br> <br> Victimization and views on crime policy | Poststratification for causal inference<br> <br> Measurement error models | Effects of campaign contributions<br> <br> Effects and variation |
+| 24. Additional topics in causal inference (Chapter 21 of *ROS*) | Deterrent effect of death penalty<br> <br> Regression discontinuity mishaps | Two measures of the same quantity<br> <br> "Why" questions and causal inference | Instrumental variables<br> <br> Adjustment in regression discontinuity | Effects of masks<br> <br> Admissions test coaching |
+| 25. Advanced regression and multilevel models (Chapter 22 of *ROS*) | Nonlinearity in leafout dates<br> <br> Governors' elections and lifespans | Nonlinear treatment effect<br> <br> When do students stop coming to class? | Modeling golf putting in Stan<br> <br> Opinions on same-sex marriage | Noisy time series<br> <br> 20 data points and 16 predictors |
+| 26. Review of the course (Chapters 1--22 of *ROS*) | Randomized trials in international development<br> <br> Is North Carolina less democratic than North Korea? | Designing a paper helicopter<br> <br> Review in groups | Quadratic regression<br> <br> Bias and unmodeled uncertainty | Design using simulation<br> <br> Electoral integrity index |
 
 ## Reviews
 
