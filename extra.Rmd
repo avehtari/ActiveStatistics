@@ -5,8 +5,6 @@ date: "Page updated: `r format.Date(file.mtime('errata.Rmd'),'%Y-%m-%d')`"
 
 -------------
 
-Extra material
-
 ## Slides
 
 - [Slides for the first semester](ActiveStatistics_first_semester.pdf)
