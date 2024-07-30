@@ -1,0 +1,16 @@
+---
+title: "Active Statistics - Extra material"
+date: "Page updated: `r format.Date(file.mtime('errata.Rmd'),'%Y-%m-%d')`"
+---
+
+-------------
+
+Extra material
+
+## Slides
+
+- [Slides for the first semester](ActiveStatistics_first_semester.pdf)
+- [Slides for the second semester](ActiveStatistics_second_semester.pdf)
+- [Slides for a one semester course](ActiveStatistics_one_semester_version.pdf)
+
+-------------

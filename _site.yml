@@ -7,6 +7,8 @@ navbar:
   left:
     - text: "Book information"
       href: index.html
+    - text: "Extra material"
+      href: extra.html
     - text: "Errata"
       href: errata.html
 output:

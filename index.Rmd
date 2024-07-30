@@ -19,7 +19,9 @@ This book provides statistics instructors and students with complete classroom m
 
 - [Buy *Active Statistics* from Cambridge University Press](https://www.cambridge.org/core/books/active-statistics/4E066112B3F82CA44C81CB4097960808).
 
-- [*Regression and Other Stories* web page](https://avehtari.github.io/ROS-Examples/).
+- [*Active Statistics* online PDF](https://users.aalto.fi/~ave/ActiveStatistics.pdf). This PDF is free to view and download for personal use only. Not for re-distribution, re-sale or use in derivative works.<br> With permission from Cambridge University Press. The linked version has corrections up to the date mentioned on the front page. It is best to link to and download from this site [https://avehtari.github.io/ActiveStatistics/](https://avehtari.github.io/ActiveStatistics/), so that you and others will get the latest corrections and see the extra online material.
+
+- [*Regression and Other Stories* book webpage](https://avehtari.github.io/ROS-Examples/).
 
 - If you notice an error [submit an issue](https://github.com/avehtari/ActiveStatistics/issues) or send an email.
 
