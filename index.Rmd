@@ -21,6 +21,8 @@ This book provides statistics instructors and students with complete classroom m
 
 - [*Active Statistics* online PDF](https://users.aalto.fi/~ave/ActiveStatistics.pdf). This PDF is free to view and download for personal use only. Not for re-distribution, re-sale or use in derivative works.<br> With permission from Cambridge University Press. The linked version has corrections up to the date mentioned on the front page. It is best to link to and download from this site [https://avehtari.github.io/ActiveStatistics/](https://avehtari.github.io/ActiveStatistics/), so that you and others will get the latest corrections and see the extra online material.
 
+- [Podcast: a special episode of Learning Bayesian Statistics with Andrew Gelman talking about the Active Statistics book](https://learnbayesstats.com/episode/106-active-statistics-two-truths-a-lie-andrew-gelman/)
+
 - [*Regression and Other Stories* book webpage](https://avehtari.github.io/ROS-Examples/).
 
 - If you notice an error [submit an issue](https://github.com/avehtari/ActiveStatistics/issues) or send an email.
